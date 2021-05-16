@@ -13,7 +13,7 @@ app.use(apiRoutes)
 app.use(htmlRoutes)
 
 
-// var port = 3000
+const PORT = process.env.PORT || 3000;
 
 app.listen(port, () => console.log(`Listening on port ${port}`))
 
